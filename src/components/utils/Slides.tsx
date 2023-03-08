@@ -25,7 +25,7 @@ const Slides = ():JSX.Element=>{
     }
     return(
         <>
-            <Carousel responsive={responsive} infinite={true} autoPlay={true}>
+            <Carousel responsive={responsive} infinite={true} autoPlay={true} arrows={false}>
                 <div>
                     <img className="rounded" src={fashion} alt="carousel image one" />
                 </div>
